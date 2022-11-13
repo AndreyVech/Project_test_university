@@ -1,6 +1,4 @@
-package org.example;
-
-import org.apache.commons.lang3.builder.Builder;
+package org.example.model;
 
 public class Student {
     String fullName;
@@ -13,6 +11,9 @@ public class Student {
         this.universityId = universityId;
         this.currentCourseNumber = currentCourseNumber;
         this.avgExamScore = avgExamScore;
+    }
+
+    public Student() {
     }
 
     @Override
@@ -52,7 +53,7 @@ public class Student {
         return this;
     }
 
-    public float getAvgExamScore() {
+    public float getAvgExamScore(float v) {
         return avgExamScore;
     }
 
