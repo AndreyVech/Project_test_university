@@ -11,8 +11,6 @@ public enum StudyProfile {
     MATHEMATICS;
 
 
-
-
     String profileName;
 
     StudyProfile(String profileName) {

@@ -53,7 +53,7 @@ public class Student {
         return this;
     }
 
-    public float getAvgExamScore(float v) {
+    public float getAvgExamScore() {
         return avgExamScore;
     }
 

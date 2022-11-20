@@ -17,6 +17,9 @@ public class University {
         this.mainProfile = mainProfile;
     }
 
+    public University() {
+    }
+
 
     @Override
     public String toString() {
