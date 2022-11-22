@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.model.Student;
 import org.example.sourse.JsonUtils;
 
 import static org.example.enums.StudyProfile.*;
@@ -39,16 +40,19 @@ public class Main {
 //                year
 //        printFromFileWithCompareUniversity(f, "full name");
 
-//создаем jsonы
-//        printJsonUniversity(f);
-//        printJsonUniversityArr(f);
-//        printJsonStudent(f);
-//        printJsonStudentArr(f);
+//создаем и выводим jsonы
+//        printUniversityToJson(f);
+//        printUniversityArrToJson(f);
+//        printStudentToJson(f);
+//        printStudentArrToJson(f);
 
 //читаем jsonы
-        String jsonStudents = JsonUtils.jsonSerializeStudentArr(loadStudentsFromFile(f));
-        String jsonUniversity = JsonUtils.jsonSerializeUniversityArr(loadUniversitiesFromFile(f));
-//        JsonUtils.jsonUnserializeStudentArr(jsonStudents).stream().forEach(System.out::println);
-//        JsonUtils.jsonUnserializeUniversityArr(jsonUniversity).stream().forEach(System.out::println);
+
+//        printStudentArrFromJson(f);
+//        printUniversityArrFromJson(f);
+//        printStudentFromJson(f);
+//        printUniversityFromJson(f);
+
+
     }
 }
