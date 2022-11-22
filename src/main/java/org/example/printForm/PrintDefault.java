@@ -2,10 +2,21 @@ package org.example.printForm;
 import org.example.enums.StudyProfile;
 import org.example.model.*;
 
-public class PrintDefault {
-    public PrintDefault(){}
+import java.util.List;
 
-    public static PrintDefault printDefaultStudent(String universityId, int currentCourseNumber, String fullName, Float avgExamScore) {
+public class PrintDefault {
+    private PrintDefault(){}
+
+    public static void printStudents(List<Student> students) {
+        students.forEach(System.out::println);
+    }
+
+    public static void printUniver(List<University> universities) {
+        universities.forEach(System.out::println);
+    }
+
+
+    public static void printDefaultStudent(String universityId, int currentCourseNumber, String fullName, Float avgExamScore) {
         Student student = new Student();
         System.out.println(
                 student.setAvgExamScore(avgExamScore)
@@ -13,10 +24,9 @@ public class PrintDefault {
                         .setCurrentCourseNumber(currentCourseNumber)
                         .setUniversityId(universityId)
         );
-        return null;
     }
 
-    public static PrintDefault printDefaultUniversity(String id, int year, String fullName, String shortName, Enum profile) {
+    public static void printDefaultUniversity(String id, int year, String fullName, String shortName, Enum profile) {
         University university = new University();
         System.out.println(
                 university.setId(id)
@@ -25,6 +35,5 @@ public class PrintDefault {
                         .setShortName(shortName)
                         .setYearOfFoundation(year)
         );
-        return null;
     }
 }

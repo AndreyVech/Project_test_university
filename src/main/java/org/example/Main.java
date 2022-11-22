@@ -1,43 +1,54 @@
 package org.example;
 
-import org.example.comparator.utils.ComparatorUtils;
-import org.example.enums.ComparatorTypeStudent;
-import org.example.enums.ComparatorTypeUniversity;
-import org.example.printForm.PrintDefault;
-import org.example.printForm.PrintFromFile;
-import org.example.printForm.PrintFromFileWithCompare;
+import org.example.sourse.JsonUtils;
 
 import static org.example.enums.StudyProfile.*;
-import static org.example.sourse.FileUtils.*;
+import static org.example.printForm.PrintDefault.*;
+import static org.example.printForm.PrintFromFile.*;
+import static org.example.printForm.PrintFromFileWithCompare.*;
+import static org.example.printForm.PrintJson.*;
+import static org.example.sourse.FileUtils.loadStudentsFromFile;
+import static org.example.sourse.FileUtils.loadUniversitiesFromFile;
 
 public class Main {
     public static void main(String[] args) {
         String f = "C:/Users/icq80/IdeaProjects/Project_test_university/src/main/resources/universityInfo.xlsx";
 
-////вручную создаем объекты и выводим в консоль
-//        PrintDefault.printDefaultStudent("0001-high", 2, "Иванов В.В.", (float) 4.2);
-//        PrintDefault.printDefaultUniversity("0001-high", 2002, "Это первый университет", "ЭПУ", DESIGNER);
+//вручную создаем объекты и выводим в консоль
+//        printDefaultStudent("0001-high", 2, "Иванов В.В.", (float) 4.2);
+//        printDefaultUniversity("0001-high", 2002, "Это первый университет", "ЭПУ", DESIGNER);
 
 
-////вычитать из файла и вывести данные
-//        PrintFromFile.printFromFileUniversity(f);
-//        PrintFromFile.printFromFileStudent(f);
-
-
+//вычитать из файла и вывести данные
+//        printFromFileUniversity(f);
+//        printFromFileStudent(f);
+//
 
 //Вычитать из файла и вывести с сортировкой
 //        Для студентов варианты сортировки строковым значением:
-    //        Name
-    //        University
-    //        Course
-    //        Score
-        PrintFromFileWithCompare.printFromFileWithCompareStudent(f, "SCORE");
+//                Name
+//                University
+//                Course
+//                Score
+//        printFromFileWithCompareStudent(f, "SCORE");
 //        Для университетов варианты сортировки строковым значением:
-        //        ID
-        //        full name
-        //        short name
-        //        profile
-        //        year
-        PrintFromFileWithCompare.printFromFileWithCompareUniversity(f, "ID");
+//                ID
+//                full name
+//                short name
+//                profile
+//                year
+//        printFromFileWithCompareUniversity(f, "full name");
+
+//создаем jsonы
+//        printJsonUniversity(f);
+//        printJsonUniversityArr(f);
+//        printJsonStudent(f);
+//        printJsonStudentArr(f);
+
+//читаем jsonы
+        String jsonStudents = JsonUtils.jsonSerializeStudentArr(loadStudentsFromFile(f));
+        String jsonUniversity = JsonUtils.jsonSerializeUniversityArr(loadUniversitiesFromFile(f));
+//        JsonUtils.jsonUnserializeStudentArr(jsonStudents).stream().forEach(System.out::println);
+//        JsonUtils.jsonUnserializeUniversityArr(jsonUniversity).stream().forEach(System.out::println);
     }
 }
