@@ -1,11 +1,13 @@
 package org.example.printForm;
+
 import org.example.enums.StudyProfile;
 import org.example.model.*;
 
 import java.util.List;
 
 public class PrintDefault {
-    private PrintDefault(){}
+    private PrintDefault() {
+    }
 
     public static void printStudents(List<Student> students) {
         students.forEach(System.out::println);
