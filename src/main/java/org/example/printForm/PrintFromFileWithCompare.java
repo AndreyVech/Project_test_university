@@ -6,9 +6,9 @@ import org.example.enums.*;
 import static org.example.sourse.FileUtils.*;
 
 public class PrintFromFileWithCompare {
-    public PrintFromFileWithCompare(){}
+    private PrintFromFileWithCompare(){}
 
-    public static PrintFromFileWithCompare printFromFileWithCompareStudent(String link, String typeCompare) {
+    public static void printFromFileWithCompareStudent(String link, String typeCompare) {
         Enum compareType;
         switch (typeCompare.toLowerCase()){
             case "score": compareType = ComparatorTypeStudent.AVG_EXAM_SCORE;
@@ -23,10 +23,9 @@ public class PrintFromFileWithCompare {
         }
         loadStudentsFromFile(link).stream().sorted(ComparatorUtils.getStudentComparator((ComparatorTypeStudent) compareType))
         .forEach(System.out::println);
-        return null;
     };
 
-    public static PrintFromFileWithCompare printFromFileWithCompareUniversity(String link, String typeCompare) {
+    public static void printFromFileWithCompareUniversity(String link, String typeCompare) {
         Enum compareType;
         switch (typeCompare.toLowerCase()){
             case "full name": compareType = ComparatorTypeUniversity.FULL_NAME;
@@ -43,6 +42,5 @@ public class PrintFromFileWithCompare {
         }
         loadUniversitiesFromFile(link).stream().sorted(ComparatorUtils.getUniversityComparator((ComparatorTypeUniversity) compareType))
                 .forEach(System.out::println);
-        return null;
     }
 }

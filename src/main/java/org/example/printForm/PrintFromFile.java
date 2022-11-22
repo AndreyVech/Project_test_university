@@ -1,18 +1,17 @@
 package org.example.printForm;
 
+import static org.example.printForm.PrintDefault.*;
 import static org.example.sourse.FileUtils.*;
 
 public class PrintFromFile {
-    public PrintFromFile(){}
+    private PrintFromFile(){}
 
-    public static PrintFromFile printFromFileStudent(String link) {
+    public static void printFromFileStudent(String link) {
         printStudents(loadStudentsFromFile(link));
-        return null;
     };
 
-    public static PrintDefault printFromFileUniversity(String link) {
+    public static void printFromFileUniversity(String link) {
         printUniver(loadUniversitiesFromFile(link));
-        return null;
     }
 }
 

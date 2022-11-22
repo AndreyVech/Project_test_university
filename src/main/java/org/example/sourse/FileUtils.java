@@ -12,6 +12,8 @@ import java.io.*;
 import java.util.*;
 
 public class FileUtils {
+    private FileUtils(){};
+
     public static List<Student> loadStudentsFromFile(String fileName) {
         List<Student> students = new ArrayList<>();
         XSSFWorkbook workBook = null;
@@ -44,9 +46,6 @@ public class FileUtils {
         return students;
     }
 
-    public static void printStudents(List<Student> students) {
-        students.forEach(System.out::println);
-    }
 
     private static Student parseStudent(String line) {
         Scanner scanner = new Scanner(line);
@@ -92,9 +91,6 @@ public class FileUtils {
         return universities;
     }
 
-    public static void printUniver(List<University> universities) {
-        universities.forEach(System.out::println);
-    }
 
     private static University parseUniver(String line) {
         int wordsCnt = line.split(";").length;

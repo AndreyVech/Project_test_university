@@ -1,9 +1,16 @@
 package org.example.model;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Student {
+    @SerializedName("name")
     String fullName;
+    @SerializedName("university")
+
     String universityId;
+    @SerializedName("course")
     int currentCourseNumber;
+    @SerializedName("score")
     float avgExamScore;
 
     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
@@ -14,16 +21,6 @@ public class Student {
     }
 
     public Student() {
-    }
-
-    @Override
-    public String toString() {
-        return "Student{" +
-                "fullName='" + fullName + '\'' +
-                ", universityId='" + universityId + '\'' +
-                ", currentCourseNumber=" + currentCourseNumber +
-                ", avgExamScore=" + avgExamScore +
-                '}';
     }
 
     public String getFullName() {
@@ -60,5 +57,15 @@ public class Student {
     public Student setAvgExamScore(float avgExamScore) {
         this.avgExamScore = avgExamScore;
         return this;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "fullName='" + fullName + '\'' +
+                ", universityId='" + universityId + '\'' +
+                ", currentCourseNumber=" + currentCourseNumber +
+                ", avgExamScore=" + avgExamScore +
+                '}';
     }
 }
