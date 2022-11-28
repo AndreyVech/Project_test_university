@@ -1,15 +1,6 @@
 package org.example;
 
-import org.example.model.Student;
-import org.example.sourse.JsonUtils;
-
-import static org.example.enums.StudyProfile.*;
-import static org.example.printForm.PrintDefault.*;
-import static org.example.printForm.PrintFromFile.*;
-import static org.example.printForm.PrintFromFileWithCompare.*;
-import static org.example.printForm.PrintJson.*;
-import static org.example.sourse.FileUtils.loadStudentsFromFile;
-import static org.example.sourse.FileUtils.loadUniversitiesFromFile;
+import org.example.sourse.xlsxWriteUtils.XlsxWrite;
 
 public class Main {
     public static void main(String[] args) {
@@ -53,6 +44,8 @@ public class Main {
 //        printStudentFromJson(f);
 //        printUniversityFromJson(f);
 
-
+//        new XlsxWrite(f, true, false); //только с первой страницей
+//        new XlsxWrite(f, true, true); //обе страницы
+        new XlsxWrite(f, false, true); //только вторая страницв
     }
 }

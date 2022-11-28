@@ -1,7 +1,7 @@
 package org.example.printForm;
 
 import static org.example.printForm.PrintDefault.*;
-import static org.example.sourse.FileUtils.*;
+import static org.example.sourse.XlsxReadUtils.*;
 
 public class PrintFromFile {
     private PrintFromFile(){}

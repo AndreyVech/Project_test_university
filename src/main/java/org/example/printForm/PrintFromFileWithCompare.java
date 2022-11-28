@@ -3,7 +3,7 @@ package org.example.printForm;
 import org.example.comparator.utils.ComparatorUtils;
 import org.example.enums.*;
 
-import static org.example.sourse.FileUtils.*;
+import static org.example.sourse.XlsxReadUtils.*;
 
 public class PrintFromFileWithCompare {
     private PrintFromFileWithCompare(){}
