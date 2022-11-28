@@ -5,15 +5,15 @@ import org.example.enums.StudyProfile;
 
 public class University {
     @SerializedName("id")
-    String id;
+    private String id;
     @SerializedName("fullName")
-    String fullName;
+    private String fullName;
     @SerializedName("shortName")
-    String shortName;
+    private String shortName;
     @SerializedName("year")
-    int yearOfFoundation;
+    private int yearOfFoundation;
     @SerializedName("profile")
-    StudyProfile mainProfile;
+    private StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
         this.id = id;

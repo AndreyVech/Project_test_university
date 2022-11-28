@@ -4,14 +4,14 @@ import com.google.gson.annotations.SerializedName;
 
 public class Student {
     @SerializedName("name")
-    String fullName;
+    private String fullName;
     @SerializedName("university")
 
-    String universityId;
+    private String universityId;
     @SerializedName("course")
-    int currentCourseNumber;
+    private int currentCourseNumber;
     @SerializedName("score")
-    float avgExamScore;
+    private float avgExamScore;
 
     public Student(String fullName, String universityId, int currentCourseNumber, float avgExamScore) {
         this.fullName = fullName;
