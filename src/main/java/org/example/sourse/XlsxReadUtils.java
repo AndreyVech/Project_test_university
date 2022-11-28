@@ -11,8 +11,8 @@ import org.example.model.University;
 import java.io.*;
 import java.util.*;
 
-public class FileUtils {
-    private FileUtils(){};
+public class XlsxReadUtils {
+    private XlsxReadUtils(){};
 
     public static List<Student> loadStudentsFromFile(String fileName) {
         List<Student> students = new ArrayList<>();

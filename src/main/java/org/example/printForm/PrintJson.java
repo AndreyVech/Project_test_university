@@ -1,10 +1,11 @@
 package org.example.printForm;
 
 import org.example.model.Student;
+import org.example.model.University;
 import org.example.sourse.JsonUtils;
 
-import static org.example.sourse.FileUtils.loadStudentsFromFile;
-import static org.example.sourse.FileUtils.loadUniversitiesFromFile;
+import static org.example.sourse.XlsxReadUtils.loadStudentsFromFile;
+import static org.example.sourse.XlsxReadUtils.loadUniversitiesFromFile;
 
 public class PrintJson {
     private PrintJson() {
@@ -54,7 +55,7 @@ public class PrintJson {
     public static void printUniversityFromJson(String link) {
         loadUniversitiesFromFile(link).stream().forEach(university -> {
                     String universityJson = JsonUtils.jsonSerializeUniversity(university);
-                    Student universityFromJson = JsonUtils.jsonUnserializeStudent(universityJson);
+                    University universityFromJson = JsonUtils.jsonUnserializeUniversity(universityJson);
                     System.out.println(universityFromJson);
                 }
         );
