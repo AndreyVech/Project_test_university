@@ -1,4 +1,4 @@
-package org.example.comparator;
+package org.example.comparatorIn;
 
 import org.example.model.Student;
 

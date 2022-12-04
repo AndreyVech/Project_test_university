@@ -1,4 +1,4 @@
-package org.example.sourse;
+package org.example.source;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Row;
@@ -10,6 +10,9 @@ import org.example.model.University;
 
 import java.io.*;
 import java.util.*;
+import java.util.logging.Level;
+
+import static org.example.Main.logger;
 
 public class XlsxReadUtils {
     private XlsxReadUtils(){};
@@ -20,6 +23,7 @@ public class XlsxReadUtils {
         try {
             workBook = new XSSFWorkbook(new FileInputStream(fileName));
         } catch (IOException e) {
+            logger.log(Level.WARNING, "LOAD FROM FILE ERROR");
             e.printStackTrace();
         }
         Iterator<Row> rowIterator = workBook.getSheet("Студенты").iterator();
@@ -43,6 +47,7 @@ public class XlsxReadUtils {
             }
             students.add(parseStudent(studentString));
         }
+        logger.log(Level.INFO, "LOAD SUCCESS");
         return students;
     }
 
@@ -55,7 +60,7 @@ public class XlsxReadUtils {
         int currentCourseNumber = Integer.parseInt(scanner.next());
         float avgExamScore = Float.parseFloat(scanner.next());
         scanner.close();
-
+        logger.log(Level.INFO, "parse SUCCESS");
         return new Student(fullName, universityId, currentCourseNumber, avgExamScore);
     }
 
@@ -65,6 +70,7 @@ public class XlsxReadUtils {
         try {
             workBook = new XSSFWorkbook(new FileInputStream(fileName));
         } catch (IOException e) {
+            logger.log(Level.WARNING, "LOAD FROM FILE ERROR");
             e.printStackTrace();
         }
         Iterator<Row> rowIterator = workBook.getSheet("Университеты").iterator();
@@ -88,6 +94,7 @@ public class XlsxReadUtils {
             }
             universities.add(parseUniver(univerString));
         }
+        logger.log(Level.INFO, "LOAD SUCCESS");
         return universities;
     }
 
@@ -121,6 +128,8 @@ public class XlsxReadUtils {
                     i = i;
             }
         }
+        logger.log(Level.INFO, "parse SUCCESS");
         return new University(universityId, fullName, shortName, yearOfFoundation, mainProfile);
     }
 }
+

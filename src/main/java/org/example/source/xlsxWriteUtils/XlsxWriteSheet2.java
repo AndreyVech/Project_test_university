@@ -1,4 +1,4 @@
-package org.example.sourse.xlsxWriteUtils;
+package org.example.source.xlsxWriteUtils;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellStyle;
@@ -6,13 +6,14 @@ import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.example.model.Statistics;
-import org.example.model.Student;
 
 import java.util.List;
+import java.util.logging.Level;
 
-import static org.example.sourse.XlsxReadUtils.loadStudentsFromFile;
-import static org.example.sourse.XlsxReadUtils.loadUniversitiesFromFile;
-import static org.example.sourse.xlsxWriteUtils.XlsxStatisticsUtil.createStatList2;
+import static org.example.Main.logger;
+import static org.example.source.XlsxReadUtils.loadStudentsFromFile;
+import static org.example.source.XlsxReadUtils.loadUniversitiesFromFile;
+import static org.example.source.xlsxWriteUtils.XlsxStatisticsUtil.createStatList2;
 
 public class XlsxWriteSheet2 {
     XlsxWriteSheet2(XSSFWorkbook createdBook, String sourse) {
@@ -36,6 +37,8 @@ public class XlsxWriteSheet2 {
         for (Statistics statistics : dataList) {
             createSheetHeader(createdSheet, ++rowNum, statistics);
         }
+        logger.log(Level.INFO, "SUCCESS");
+
     }
 
     private static void createSheetHeader(XSSFSheet sheet, int rowNum, Statistics dataModel) {

@@ -1,6 +1,6 @@
-package org.example.comparator.utils;
+package org.example.comparatorIn.utils;
 
-import org.example.comparator.*;
+import org.example.comparatorIn.*;
 import org.example.enums.ComparatorTypeStudent;
 import org.example.enums.ComparatorTypeUniversity;
 

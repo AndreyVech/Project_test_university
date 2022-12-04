@@ -1,4 +1,4 @@
-package org.example.sourse;
+package org.example.source;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

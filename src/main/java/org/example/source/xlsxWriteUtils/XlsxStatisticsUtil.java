@@ -1,4 +1,4 @@
-package org.example.sourse.xlsxWriteUtils;
+package org.example.source.xlsxWriteUtils;
 
 import org.apache.commons.lang3.StringUtils;
 import org.example.enums.StudyProfile;
@@ -12,7 +12,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.OptionalDouble;
 import java.util.Set;
+import java.util.logging.Level;
 import java.util.stream.Collectors;
+
+import static org.example.Main.logger;
 
 public class XlsxStatisticsUtil {
     private XlsxStatisticsUtil() {
@@ -52,6 +55,7 @@ public class XlsxStatisticsUtil {
             avgExamScore.ifPresent(value -> statistics.setAvgScore(
                     (float) BigDecimal.valueOf(value).setScale(2, RoundingMode.HALF_UP).doubleValue()));
         });
+        logger.log(Level.INFO, "SUCCESS");
         return statisticsList;
     }
 
@@ -69,6 +73,7 @@ public class XlsxStatisticsUtil {
             statistics.setStudentsCnt(studentCnt.size());
 
         });
+        logger.log(Level.INFO, "SUCCESS");
         return statisticsList;
     }
 }
