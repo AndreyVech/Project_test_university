@@ -2,10 +2,10 @@ package org.example.printForm;
 
 import org.example.model.Student;
 import org.example.model.University;
-import org.example.sourse.JsonUtils;
+import org.example.source.JsonUtils;
 
-import static org.example.sourse.XlsxReadUtils.loadStudentsFromFile;
-import static org.example.sourse.XlsxReadUtils.loadUniversitiesFromFile;
+import static org.example.source.XlsxReadUtils.loadStudentsFromFile;
+import static org.example.source.XlsxReadUtils.loadUniversitiesFromFile;
 
 public class PrintJson {
     private PrintJson() {

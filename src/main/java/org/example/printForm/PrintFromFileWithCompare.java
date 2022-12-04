@@ -1,9 +1,9 @@
 package org.example.printForm;
 
-import org.example.comparator.utils.ComparatorUtils;
+import org.example.comparatorIn.utils.ComparatorUtils;
 import org.example.enums.*;
 
-import static org.example.sourse.XlsxReadUtils.*;
+import static org.example.source.XlsxReadUtils.*;
 
 public class PrintFromFileWithCompare {
     private PrintFromFileWithCompare(){}

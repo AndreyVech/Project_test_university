@@ -1,8 +1,11 @@
-package org.example.sourse.xlsxWriteUtils;
+package org.example.source.xlsxWriteUtils;
 
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 import java.io.*;
+import java.util.logging.Level;
+
+import static org.example.Main.logger;
 
 public class XlsxWrite {
     String sourse = "";
@@ -25,9 +28,9 @@ public class XlsxWrite {
             createdBook.write(out);
         } catch (IOException e) {
             e.printStackTrace();
+            logger.log(Level.SEVERE, "InfoOut.xlsx ERROR");
         }
-        System.out.println("Excel файл успешно создан!");
+        logger.log(Level.INFO, "InfoOut.xlsx SUCCESS");
     }
-
     ;
 }
