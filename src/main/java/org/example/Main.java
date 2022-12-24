@@ -1,68 +1,74 @@
 package org.example;
 
-import org.example.source.xlsxWriteUtils.XlsxWrite;
+import org.example.comparatorIn.utils.ComparatorUtils;
+import org.example.enums.ComparatorTypeStudent;
+import org.example.enums.ComparatorTypeUniversity;
+import org.example.model.FullModel;
+import org.example.model.Statistics;
+import org.example.model.Student;
+import org.example.model.University;
+import org.example.source.xlsxWrite.XlsxWrite;
 
+import javax.swing.*;
 import java.io.IOException;
-import java.util.logging.*;
+import java.util.Date;
+import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
-import static org.example.printForm.PrintFromFileWithCompare.printFromFileWithCompareUniversity;
+import static org.example.source.JsonWrite.WriteJson.createJson;
+import static org.example.source.XlsxReadUtils.loadStudentsFromFile;
+import static org.example.source.XlsxReadUtils.loadUniversitiesFromFile;
+import static org.example.source.XmlWrite.WriteXml.createXml;
+import static org.example.source.xlsxWrite.XlsxStatisticsUtil.createStatList1;
+
+//        "C:/Users/icq80/IdeaProjects/Project_test_university/src/main/resources/universityInfo.xlsx";
 
 public class Main {
     public static final Logger logger = Logger.getLogger(Main.class.getName());
 
-    public static void main(String[] args) {
-        String f = "C:/Users/icq80/IdeaProjects/Project_test_university/src/main/resources/universityInfo.xlsx";
-
+    public static void logger() {
         try {
             LogManager.getLogManager().readConfiguration(
                     Main.class.getResourceAsStream("/logging.properties"));
         } catch (
                 IOException e) {
-            System.err.println("Could not setup logger configuration: " + e.toString());
+            System.err.println("Could not setup logger configuration: " + e);
         }
-        logger.log(Level.INFO, "Старт");
+        logger.log(Level.INFO, "Process start");
+    }
 
+    public static void main(String[] args) {
+        logger();
+        String link = JOptionPane.showInputDialog("Введите ссылку на файл");
 
-//вручную создаем объекты и выводим в консоль
-//        printDefaultStudent("0001-high", 2, "Иванов В.В.", (float) 4.2);
-//        printDefaultUniversity("0001-high", 2002, "Это первый университет", "ЭПУ", DESIGNER);
+        List<Student> students = loadStudentsFromFile(link);
+        students.sort(ComparatorUtils.getStudentComparator(ComparatorTypeStudent.AVG_EXAM_SCORE));
+        List<University> universities = loadUniversitiesFromFile(link);
+        universities.sort(ComparatorUtils.getUniversityComparator(ComparatorTypeUniversity.PROFILE));
 
+        //создаем xlsx файл отчета
+        new XlsxWrite(true, true, students, universities);
 
-//вычитать из файла и вывести данные
-//        printFromFileUniversity(f);
-//        printFromFileStudent(f);
-//
+//еще раз пересоберем статистику для сообщений, потому что возможно xlsx и сообщения будут раздельно
+        List<Statistics> statisticsList = createStatList1(students, universities);
 
-//Вычитать из файла и вывести с сортировкой
-//        Для студентов варианты сортировки строковым значением:
-//                Name
-//                University
-//                Course
-//                Score
-//        printFromFileWithCompareStudent(f, "SCORE");
-//        Для университетов варианты сортировки строковым значением:
-//                ID
-//                full name
-//                short name
-//                profile
-//                year
-//        printFromFileWithCompareUniversity(f, "full name");
+//создаем json файлы
+        createJson(new FullModel().
+                setStudentList(students).
+                setUniversityList(universities).
+                setStatisticsList(statisticsList).
+                setDate(new Date()));
 
-//создаем и выводим jsonы
-//        printUniversityToJson(f);
-//        printUniversityArrToJson(f);
-//        printStudentToJson(f);
-//        printStudentArrToJson(f);
+//создаем xml файлы
+        createXml(new FullModel().
+                setStudentList(students).
+                setUniversityList(universities).
+                setStatisticsList(statisticsList).
+                setDate(new Date()));
 
-//читаем jsonы
-
-//        printStudentArrFromJson(f);
-//        printUniversityArrFromJson(f);
-//        printStudentFromJson(f);
-//        printUniversityFromJson(f);
-
-//        new XlsxWrite(f, true, false); //только с первой страницей
-        new XlsxWrite(f, true, true); //обе страницы
-//        new XlsxWrite(f, false, true); //только вторая страницы
+        logger.log(Level.INFO, "Process finished");
     }
 }
+
