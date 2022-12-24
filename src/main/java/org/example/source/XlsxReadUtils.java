@@ -8,6 +8,7 @@ import org.example.enums.StudyProfile;
 import org.example.model.Student;
 import org.example.model.University;
 
+import javax.swing.*;
 import java.io.*;
 import java.util.*;
 import java.util.logging.Level;
@@ -24,6 +25,7 @@ public class XlsxReadUtils {
             workBook = new XSSFWorkbook(new FileInputStream(fileName));
         } catch (IOException e) {
             logger.log(Level.WARNING, "LOAD FROM FILE ERROR");
+            JOptionPane.showMessageDialog(null,"Ошибка чтения");
             e.printStackTrace();
         }
         Iterator<Row> rowIterator = workBook.getSheet("Студенты").iterator();

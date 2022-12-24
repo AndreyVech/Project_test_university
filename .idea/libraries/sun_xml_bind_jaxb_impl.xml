@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="sun.xml.bind.jaxb.impl" type="repository">
+    <properties maven-id="com.sun.xml.bind:jaxb-impl:4.0.1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-impl-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jaxb-core-4.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.xml.bind-api-4.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jakarta.activation-api-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/angus-activation-1.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

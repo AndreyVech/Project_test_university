@@ -2,9 +2,81 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-12-04T20:47:15.874745400Z</date>
-  <millis>1670186835874</millis>
-  <nanos>745400</nanos>
+  <date>2022-12-24T10:53:09.590086Z</date>
+  <millis>1671879189590</millis>
+  <nanos>86000</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>logger</method>
+  <thread>1</thread>
+  <message>Process start</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.295227300Z</date>
+  <millis>1671879204295</millis>
+  <nanos>227300</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.297228500Z</date>
+  <millis>1671879204297</millis>
+  <nanos>228500</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.298224Z</date>
+  <millis>1671879204298</millis>
+  <nanos>224000</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.299223500Z</date>
+  <millis>1671879204299</millis>
+  <nanos>223500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.300224200Z</date>
+  <millis>1671879204300</millis>
+  <nanos>224200</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T10:53:24.301225200Z</date>
+  <millis>1671879204301</millis>
+  <nanos>225200</nanos>
   <sequence>6</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -14,9 +86,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.876745500Z</date>
-  <millis>1670186835876</millis>
-  <nanos>745500</nanos>
+  <date>2022-12-24T10:53:24.301225200Z</date>
+  <millis>1671879204301</millis>
+  <nanos>225200</nanos>
   <sequence>7</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -26,9 +98,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.918840600Z</date>
-  <millis>1670186835918</millis>
-  <nanos>840600</nanos>
+  <date>2022-12-24T10:53:24.302225400Z</date>
+  <millis>1671879204302</millis>
+  <nanos>225400</nanos>
   <sequence>8</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -38,9 +110,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.921843800Z</date>
-  <millis>1670186835921</millis>
-  <nanos>843800</nanos>
+  <date>2022-12-24T10:53:24.303224300Z</date>
+  <millis>1671879204303</millis>
+  <nanos>224300</nanos>
   <sequence>9</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -50,9 +122,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.923839700Z</date>
-  <millis>1670186835923</millis>
-  <nanos>839700</nanos>
+  <date>2022-12-24T10:53:24.304224900Z</date>
+  <millis>1671879204304</millis>
+  <nanos>224900</nanos>
   <sequence>10</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -62,9 +134,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.925839600Z</date>
-  <millis>1670186835925</millis>
-  <nanos>839600</nanos>
+  <date>2022-12-24T10:53:24.304224900Z</date>
+  <millis>1671879204304</millis>
+  <nanos>224900</nanos>
   <sequence>11</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -74,9 +146,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:15.926840100Z</date>
-  <millis>1670186835926</millis>
-  <nanos>840100</nanos>
+  <date>2022-12-24T10:53:24.305226100Z</date>
+  <millis>1671879204305</millis>
+  <nanos>226100</nanos>
   <sequence>12</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -86,9 +158,9 @@
   <message>LOAD SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.008858100Z</date>
-  <millis>1670186836008</millis>
-  <nanos>858100</nanos>
+  <date>2022-12-24T10:53:24.341233900Z</date>
+  <millis>1671879204341</millis>
+  <nanos>233900</nanos>
   <sequence>13</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -98,9 +170,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.011864300Z</date>
-  <millis>1670186836011</millis>
-  <nanos>864300</nanos>
+  <date>2022-12-24T10:53:24.343235100Z</date>
+  <millis>1671879204343</millis>
+  <nanos>235100</nanos>
   <sequence>14</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -110,9 +182,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.013861800Z</date>
-  <millis>1670186836013</millis>
-  <nanos>861800</nanos>
+  <date>2022-12-24T10:53:24.343235100Z</date>
+  <millis>1671879204343</millis>
+  <nanos>235100</nanos>
   <sequence>15</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -122,9 +194,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.015859500Z</date>
-  <millis>1670186836015</millis>
-  <nanos>859500</nanos>
+  <date>2022-12-24T10:53:24.344245800Z</date>
+  <millis>1671879204344</millis>
+  <nanos>245800</nanos>
   <sequence>16</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -134,9 +206,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.017860200Z</date>
-  <millis>1670186836017</millis>
-  <nanos>860200</nanos>
+  <date>2022-12-24T10:53:24.344245800Z</date>
+  <millis>1671879204344</millis>
+  <nanos>245800</nanos>
   <sequence>17</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -146,9 +218,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.019860600Z</date>
-  <millis>1670186836019</millis>
-  <nanos>860600</nanos>
+  <date>2022-12-24T10:53:24.345234400Z</date>
+  <millis>1671879204345</millis>
+  <nanos>234400</nanos>
   <sequence>18</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -158,9 +230,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.021588200Z</date>
-  <millis>1670186836021</millis>
-  <nanos>588200</nanos>
+  <date>2022-12-24T10:53:24.345234400Z</date>
+  <millis>1671879204345</millis>
+  <nanos>234400</nanos>
   <sequence>19</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -170,9 +242,9 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.023596200Z</date>
-  <millis>1670186836023</millis>
-  <nanos>596200</nanos>
+  <date>2022-12-24T10:53:24.345234400Z</date>
+  <millis>1671879204345</millis>
+  <nanos>234400</nanos>
   <sequence>20</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
@@ -182,106 +254,122 @@
   <message>LOAD SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.038598Z</date>
-  <millis>1670186836038</millis>
-  <nanos>598000</nanos>
+  <date>2022-12-24T10:53:24.429254200Z</date>
+  <millis>1671879204429</millis>
+  <nanos>254200</nanos>
   <sequence>21</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.xlsxWriteUtils.XlsxStatisticsUtil</class>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
   <method>createStatList1</method>
   <thread>1</thread>
   <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.070612400Z</date>
-  <millis>1670186836070</millis>
-  <nanos>612400</nanos>
+  <date>2022-12-24T10:53:24.446262800Z</date>
+  <millis>1671879204446</millis>
+  <nanos>262800</nanos>
   <sequence>22</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.xlsxWriteUtils.XlsxWriteSheet1</class>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet1</class>
   <method>&lt;init&gt;</method>
   <thread>1</thread>
   <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.168161500Z</date>
-  <millis>1670186836168</millis>
-  <nanos>161500</nanos>
+  <date>2022-12-24T10:53:24.448258500Z</date>
+  <millis>1671879204448</millis>
+  <nanos>258500</nanos>
   <sequence>23</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList2</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.170683300Z</date>
-  <millis>1670186836170</millis>
-  <nanos>683300</nanos>
+  <date>2022-12-24T10:53:24.452256300Z</date>
+  <millis>1671879204452</millis>
+  <nanos>256300</nanos>
   <sequence>24</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet2</class>
+  <method>&lt;init&gt;</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.173228Z</date>
-  <millis>1670186836173</millis>
-  <nanos>228000</nanos>
+  <date>2022-12-24T10:53:24.535276800Z</date>
+  <millis>1671879204535</millis>
+  <nanos>276800</nanos>
   <sequence>25</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.source.xlsxWrite.XlsxWrite</class>
+  <method>&lt;init&gt;</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>InfoOut.xlsx SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.175207400Z</date>
-  <millis>1670186836175</millis>
-  <nanos>207400</nanos>
+  <date>2022-12-24T10:53:24.535276800Z</date>
+  <millis>1671879204535</millis>
+  <nanos>276800</nanos>
   <sequence>26</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList1</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.177205200Z</date>
-  <millis>1670186836177</millis>
-  <nanos>205200</nanos>
+  <date>2022-12-24T10:53:24.600291600Z</date>
+  <millis>1671879204600</millis>
+  <nanos>291600</nanos>
   <sequence>27</sequence>
-  <logger>org.example.Main</logger>
+  <logger>org.example.source.JsonWrite.WriteJson</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.source.JsonWrite.WriteJson</class>
+  <method>writeJson</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.178203300Z</date>
-  <millis>1670186836178</millis>
-  <nanos>203300</nanos>
+  <date>2022-12-24T10:53:24.600291600Z</date>
+  <millis>1671879204600</millis>
+  <nanos>291600</nanos>
   <sequence>28</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.XlsxReadUtils</class>
-  <method>parseStudent</method>
+  <class>org.example.Main</class>
+  <method>main</method>
   <thread>1</thread>
-  <message>parse SUCCESS</message>
+  <message>Process finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-24T11:12:07.936305500Z</date>
+  <millis>1671880327936</millis>
+  <nanos>305500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>logger</method>
+  <thread>1</thread>
+  <message>Process start</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.180206100Z</date>
-  <millis>1670186836180</millis>
-  <nanos>206100</nanos>
-  <sequence>29</sequence>
+  <date>2022-12-24T11:12:10.843557900Z</date>
+  <millis>1671880330843</millis>
+  <nanos>557900</nanos>
+  <sequence>1</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -290,10 +378,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.182204800Z</date>
-  <millis>1670186836182</millis>
-  <nanos>204800</nanos>
-  <sequence>30</sequence>
+  <date>2022-12-24T11:12:10.845558700Z</date>
+  <millis>1671880330845</millis>
+  <nanos>558700</nanos>
+  <sequence>2</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -302,10 +390,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.184207Z</date>
-  <millis>1670186836184</millis>
-  <nanos>207000</nanos>
-  <sequence>31</sequence>
+  <date>2022-12-24T11:12:10.847562300Z</date>
+  <millis>1671880330847</millis>
+  <nanos>562300</nanos>
+  <sequence>3</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -314,10 +402,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.185207200Z</date>
-  <millis>1670186836185</millis>
-  <nanos>207200</nanos>
-  <sequence>32</sequence>
+  <date>2022-12-24T11:12:10.849560900Z</date>
+  <millis>1671880330849</millis>
+  <nanos>560900</nanos>
+  <sequence>4</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -326,10 +414,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.187208200Z</date>
-  <millis>1670186836187</millis>
-  <nanos>208200</nanos>
-  <sequence>33</sequence>
+  <date>2022-12-24T11:12:10.850558300Z</date>
+  <millis>1671880330850</millis>
+  <nanos>558300</nanos>
+  <sequence>5</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -338,10 +426,82 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.188208500Z</date>
-  <millis>1670186836188</millis>
-  <nanos>208500</nanos>
-  <sequence>34</sequence>
+  <date>2022-12-24T11:12:10.851557900Z</date>
+  <millis>1671880330851</millis>
+  <nanos>557900</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.853559900Z</date>
+  <millis>1671880330853</millis>
+  <nanos>559900</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.854560200Z</date>
+  <millis>1671880330854</millis>
+  <nanos>560200</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.855559700Z</date>
+  <millis>1671880330855</millis>
+  <nanos>559700</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.856560600Z</date>
+  <millis>1671880330856</millis>
+  <nanos>560600</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.858561800Z</date>
+  <millis>1671880330858</millis>
+  <nanos>561800</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:10.859562400Z</date>
+  <millis>1671880330859</millis>
+  <nanos>562400</nanos>
+  <sequence>12</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -350,10 +510,10 @@
   <message>LOAD SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.235222400Z</date>
-  <millis>1670186836235</millis>
-  <nanos>222400</nanos>
-  <sequence>35</sequence>
+  <date>2022-12-24T11:12:10.896571600Z</date>
+  <millis>1671880330896</millis>
+  <nanos>571600</nanos>
+  <sequence>13</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -362,10 +522,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.237218900Z</date>
-  <millis>1670186836237</millis>
-  <nanos>218900</nanos>
-  <sequence>36</sequence>
+  <date>2022-12-24T11:12:10.898569800Z</date>
+  <millis>1671880330898</millis>
+  <nanos>569800</nanos>
+  <sequence>14</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -374,10 +534,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.239217700Z</date>
-  <millis>1670186836239</millis>
-  <nanos>217700</nanos>
-  <sequence>37</sequence>
+  <date>2022-12-24T11:12:10.899570900Z</date>
+  <millis>1671880330899</millis>
+  <nanos>570900</nanos>
+  <sequence>15</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -386,10 +546,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.241216900Z</date>
-  <millis>1670186836241</millis>
-  <nanos>216900</nanos>
-  <sequence>38</sequence>
+  <date>2022-12-24T11:12:10.900571500Z</date>
+  <millis>1671880330900</millis>
+  <nanos>571500</nanos>
+  <sequence>16</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -398,10 +558,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.242218600Z</date>
-  <millis>1670186836242</millis>
-  <nanos>218600</nanos>
-  <sequence>39</sequence>
+  <date>2022-12-24T11:12:10.900571500Z</date>
+  <millis>1671880330900</millis>
+  <nanos>571500</nanos>
+  <sequence>17</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -410,10 +570,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.244217800Z</date>
-  <millis>1670186836244</millis>
-  <nanos>217800</nanos>
-  <sequence>40</sequence>
+  <date>2022-12-24T11:12:10.901573100Z</date>
+  <millis>1671880330901</millis>
+  <nanos>573100</nanos>
+  <sequence>18</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -422,10 +582,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.245218600Z</date>
-  <millis>1670186836245</millis>
-  <nanos>218600</nanos>
-  <sequence>41</sequence>
+  <date>2022-12-24T11:12:10.902572Z</date>
+  <millis>1671880330902</millis>
+  <nanos>572000</nanos>
+  <sequence>19</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -434,10 +594,10 @@
   <message>parse SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.246219100Z</date>
-  <millis>1670186836246</millis>
-  <nanos>219100</nanos>
-  <sequence>42</sequence>
+  <date>2022-12-24T11:12:10.903571600Z</date>
+  <millis>1671880330903</millis>
+  <nanos>571600</nanos>
+  <sequence>20</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
   <class>org.example.source.XlsxReadUtils</class>
@@ -446,39 +606,487 @@
   <message>LOAD SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.250222900Z</date>
-  <millis>1670186836250</millis>
-  <nanos>222900</nanos>
-  <sequence>43</sequence>
+  <date>2022-12-24T11:12:10.984588100Z</date>
+  <millis>1671880330984</millis>
+  <nanos>588100</nanos>
+  <sequence>21</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.xlsxWriteUtils.XlsxStatisticsUtil</class>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList1</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:11.001593100Z</date>
+  <millis>1671880331001</millis>
+  <nanos>593100</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet1</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:11.004593400Z</date>
+  <millis>1671880331004</millis>
+  <nanos>593400</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
   <method>createStatList2</method>
   <thread>1</thread>
   <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.260223200Z</date>
-  <millis>1670186836260</millis>
-  <nanos>223200</nanos>
-  <sequence>44</sequence>
+  <date>2022-12-24T11:12:11.008594800Z</date>
+  <millis>1671880331008</millis>
+  <nanos>594800</nanos>
+  <sequence>24</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.xlsxWriteUtils.XlsxWriteSheet2</class>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet2</class>
   <method>&lt;init&gt;</method>
   <thread>1</thread>
   <message>SUCCESS</message>
 </record>
 <record>
-  <date>2022-12-04T20:47:16.426999600Z</date>
-  <millis>1670186836426</millis>
-  <nanos>999600</nanos>
-  <sequence>45</sequence>
+  <date>2022-12-24T11:12:11.093617300Z</date>
+  <millis>1671880331093</millis>
+  <nanos>617300</nanos>
+  <sequence>25</sequence>
   <logger>org.example.Main</logger>
   <level>INFO</level>
-  <class>org.example.source.xlsxWriteUtils.XlsxWrite</class>
+  <class>org.example.source.xlsxWrite.XlsxWrite</class>
   <method>&lt;init&gt;</method>
   <thread>1</thread>
   <message>InfoOut.xlsx SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:11.095616700Z</date>
+  <millis>1671880331095</millis>
+  <nanos>616700</nanos>
+  <sequence>26</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList1</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:11.169632200Z</date>
+  <millis>1671880331169</millis>
+  <nanos>632200</nanos>
+  <sequence>27</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.JsonWrite.WriteJson</class>
+  <method>createJson</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:12:11.169632200Z</date>
+  <millis>1671880331169</millis>
+  <nanos>632200</nanos>
+  <sequence>28</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Process finished</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2022-12-24T11:15:04.820724600Z</date>
+  <millis>1671880504820</millis>
+  <nanos>724600</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>logger</method>
+  <thread>1</thread>
+  <message>Process start</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.842965100Z</date>
+  <millis>1671880522842</millis>
+  <nanos>965100</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.844974300Z</date>
+  <millis>1671880522844</millis>
+  <nanos>974300</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.846969700Z</date>
+  <millis>1671880522846</millis>
+  <nanos>969700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.847969300Z</date>
+  <millis>1671880522847</millis>
+  <nanos>969300</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.849967900Z</date>
+  <millis>1671880522849</millis>
+  <nanos>967900</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.850966500Z</date>
+  <millis>1671880522850</millis>
+  <nanos>966500</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.851967300Z</date>
+  <millis>1671880522851</millis>
+  <nanos>967300</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.852967900Z</date>
+  <millis>1671880522852</millis>
+  <nanos>967900</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.853967500Z</date>
+  <millis>1671880522853</millis>
+  <nanos>967500</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.854966800Z</date>
+  <millis>1671880522854</millis>
+  <nanos>966800</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.854966800Z</date>
+  <millis>1671880522854</millis>
+  <nanos>966800</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseStudent</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.855967400Z</date>
+  <millis>1671880522855</millis>
+  <nanos>967400</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>loadStudentsFromFile</method>
+  <thread>1</thread>
+  <message>LOAD SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.889975400Z</date>
+  <millis>1671880522889</millis>
+  <nanos>975400</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.890980300Z</date>
+  <millis>1671880522890</millis>
+  <nanos>980300</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.891979500Z</date>
+  <millis>1671880522891</millis>
+  <nanos>979500</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.893978200Z</date>
+  <millis>1671880522893</millis>
+  <nanos>978200</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.894977900Z</date>
+  <millis>1671880522894</millis>
+  <nanos>977900</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.894977900Z</date>
+  <millis>1671880522894</millis>
+  <nanos>977900</nanos>
+  <sequence>18</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.895977800Z</date>
+  <millis>1671880522895</millis>
+  <nanos>977800</nanos>
+  <sequence>19</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>parseUniver</method>
+  <thread>1</thread>
+  <message>parse SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.895977800Z</date>
+  <millis>1671880522895</millis>
+  <nanos>977800</nanos>
+  <sequence>20</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XlsxReadUtils</class>
+  <method>loadUniversitiesFromFile</method>
+  <thread>1</thread>
+  <message>LOAD SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.978998200Z</date>
+  <millis>1671880522978</millis>
+  <nanos>998200</nanos>
+  <sequence>21</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList1</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.995005300Z</date>
+  <millis>1671880522995</millis>
+  <nanos>5300</nanos>
+  <sequence>22</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet1</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:22.998004200Z</date>
+  <millis>1671880522998</millis>
+  <nanos>4200</nanos>
+  <sequence>23</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList2</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.001004400Z</date>
+  <millis>1671880523001</millis>
+  <nanos>4400</nanos>
+  <sequence>24</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxWriteSheet2</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.094538600Z</date>
+  <millis>1671880523094</millis>
+  <nanos>538600</nanos>
+  <sequence>25</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxWrite</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>InfoOut.xlsx SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.095539Z</date>
+  <millis>1671880523095</millis>
+  <nanos>539000</nanos>
+  <sequence>26</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.xlsxWrite.XlsxStatisticsUtil</class>
+  <method>createStatList1</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.172555100Z</date>
+  <millis>1671880523172</millis>
+  <nanos>555100</nanos>
+  <sequence>27</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.JsonWrite.WriteJson</class>
+  <method>createJson</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.174555Z</date>
+  <millis>1671880523174</millis>
+  <nanos>555000</nanos>
+  <sequence>28</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XmlWrite.WriteXml</class>
+  <method>createXml</method>
+  <thread>1</thread>
+  <message>SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.317590500Z</date>
+  <millis>1671880523317</millis>
+  <nanos>590500</nanos>
+  <sequence>29</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.source.XmlWrite.WriteXml</class>
+  <method>createXml</method>
+  <thread>1</thread>
+  <message>xmlDir SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.326591600Z</date>
+  <millis>1671880523326</millis>
+  <nanos>591600</nanos>
+  <sequence>30</sequence>
+  <logger>org.example.Main</logger>
+  <level>WARNING</level>
+  <class>org.example.source.XmlWrite.WriteXml</class>
+  <method>createXml</method>
+  <thread>1</thread>
+  <message>XML SUCCESS</message>
+</record>
+<record>
+  <date>2022-12-24T11:15:23.327593Z</date>
+  <millis>1671880523327</millis>
+  <nanos>593000</nanos>
+  <sequence>31</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Process finished</message>
 </record>
 </log>

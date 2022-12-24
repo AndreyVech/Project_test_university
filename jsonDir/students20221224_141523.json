@@ -1,0 +1,68 @@
+[
+  {
+    "name": "Петров П. А.",
+    "university": "0001-high",
+    "course": 1,
+    "score": 5.0
+  },
+  {
+    "name": "Алексеев С. В.",
+    "university": "0001-high",
+    "course": 1,
+    "score": 5.0
+  },
+  {
+    "name": "Соколов В. В.",
+    "university": "0004-high",
+    "course": 1,
+    "score": 4.8
+  },
+  {
+    "name": "Иванов А. Г.",
+    "university": "0001-high",
+    "course": 3,
+    "score": 4.8
+  },
+  {
+    "name": "Васильев В. П.",
+    "university": "0001-high",
+    "course": 4,
+    "score": 4.7
+  },
+  {
+    "name": "Козлов М. В.",
+    "university": "0002-high",
+    "course": 2,
+    "score": 4.6
+  },
+  {
+    "name": "Игнатьев М. М.",
+    "university": "0003-high",
+    "course": 4,
+    "score": 4.3
+  },
+  {
+    "name": "Фёдоров А. И.",
+    "university": "0002-high",
+    "course": 3,
+    "score": 4.2
+  },
+  {
+    "name": "Иванов И. А.",
+    "university": "0002-high",
+    "course": 2,
+    "score": 4.0
+  },
+  {
+    "name": "Витальев В. А.",
+    "university": "0001-high",
+    "course": 2,
+    "score": 4.0
+  },
+  {
+    "name": "Сидоров Е. Г.",
+    "university": "0004-high",
+    "course": 2,
+    "score": 3.9
+  }
+]
